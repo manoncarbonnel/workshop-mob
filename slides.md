@@ -33,7 +33,7 @@ Mob Programming
   </a>
 </div>
 
-<img class="slidev-icon" style="border-radius: 50px; max-width: 70%;" src="/assets/cover.jpg" alt="MobProgFr logo"/>
+<img class="slidev-icon" style="border-radius: 50px; max-width: 70%;" src="/cover.jpg" alt="MobProgFr logo"/>
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
@@ -57,7 +57,7 @@ layout: intro
         </ul>
     </div>
     <div>
-        <img src="/assets/marjorie.jpg" alt="Portrait de Marjorie" style="border-radius: 50px; max-width: 100%; max-height: 80%;" />
+        <img src="/marjorie.jpg" alt="Portrait de Marjorie" style="border-radius: 50px; max-width: 100%; max-height: 80%;" />
     </div>
 </div>
 
@@ -76,7 +76,7 @@ layout: intro
         </ul>
     </div>
     <div>
-        <img src="/assets/manon.jpg" alt="Portrait de Manon" style="border-radius: 50px; max-width: 100%; max-height: 80%;" />
+        <img src="/manon.jpg" alt="Portrait de Manon" style="border-radius: 50px; max-width: 100%; max-height: 80%;" />
     </div>
 </div>
 
@@ -135,14 +135,14 @@ transition: slide-up
 
 ---
 layout: image
-image: /assets/baba-is-you.avif
+image:  /baba-is-you.avif
 transition: slide-up
 ---
 
 
 ---
 layout: image-right
-image: /assets/mob-andrea-zuill.png
+image:  /mob-andrea-zuill.png
 transition: slide-up
 ---
 
@@ -218,7 +218,7 @@ transition: slide-up
 ---
 transition: slide-up
 layout: image-right
-image: /assets/psychological-safety-daniel-tuttle-DezqNIFG8jk-unsplash.jpg
+image: /psychological-safety-daniel-tuttle-DezqNIFG8jk-unsplash.jpg
 ---
 
 # Sécurité psychologique
@@ -336,7 +336,7 @@ Gérer le chrono et la rotation des rôles
 
 ---
 layout: image-right
-image: /assets/qrcode_openfeedback.io.png
+image:  /qrcode_openfeedback.io.png
 ---
 
 # Merci !
