@@ -13,9 +13,9 @@ drawings:
 transition: slide-left
 mdc: true
 fonts:
-  sans: 'Cabin Sketch'
-  serif: 'Love Ya Like A Sister'
-  mono: 'Fira Code'
+  sans: "Cabin Sketch"
+  serif: "Love Ya Like A Sister"
+  mono: "Fira Code"
 class: text-center
 ---
 
@@ -43,10 +43,11 @@ The last comment block of each slide will be treated as slide notes. It will be 
 -->
 
 ---
-layout: intro
----
+
+## layout: intro
 
 # Marjorie Aubert
+
 <br/>
 
 <div grid="~ cols-2 gap-4">
@@ -62,10 +63,11 @@ layout: intro
 </div>
 
 ---
-layout: intro
----
+
+## layout: intro
 
 # Manon Carbonnel
+
 <br/>
 
 <div grid="~ cols-2 gap-4">
@@ -81,15 +83,15 @@ layout: intro
 </div>
 
 ---
-transition: slide-up
----
+
+## transition: slide-up
 
 # C'est quoi le mob programming ?
 
-|     |     |
-| --- | --- |
-| ✋ Vous avez déjà entendu parler de la pratique  | <Counter :count="0" /> |
-| <v-click>✋ Vous avez déjà pratiqué </v-click> | <Counter :count="0" /> |
+|                                                 |                        |
+| ----------------------------------------------- | ---------------------- |
+| ✋ Vous avez déjà entendu parler de la pratique | <Counter :count="0" /> |
+| <v-click>✋ Vous avez déjà pratiqué </v-click>  | <Counter :count="0" /> |
 
 <br/>
 <br/>
@@ -111,39 +113,43 @@ autour d'<span v-mark.red="3">un seul poste de travail</span>.
 ```md {monaco}
 Pourquoi êtes-vous ici ?
 
-- 
-- 
-- 
+-
+-
+-
 
 Vous avez envie de repartir avec :
 
-- 
-- 
-- 
-
+-
+-
+-
 ```
+
 ---
+
 layout: quote
 class: text-center
 transition: slide-up
+
 ---
 
 "Pour qu'une idée arrive dans le code, elle doit passer par le cerveau de quelqu'un d'autre."
 
-*Llewellyn Falco*
-
+_Llewellyn Falco_
 
 ---
+
 layout: image
-image:  /baba-is-you.avif
+image: /baba-is-you.avif
 transition: slide-up
----
-
 
 ---
+
+---
+
 layout: image-right
-image:  /mob-andrea-zuill.png
+image: /mob-andrea-zuill.png
 transition: slide-up
+
 ---
 
 # Roles
@@ -182,6 +188,7 @@ Par exemple :
 2 - « Écris un test qui vérifie que quand on appelle la fonction avec le nombre 5 on retourne "Buzz" »
 3 - « Tu peux dupliquer le bloc de code entre la ligne 17 et 23, et changer les valeurs ligne 18 et 22 »
 ```
+
 </v-click>
 
 ---
@@ -195,33 +202,38 @@ Par exemple :
 
 ℹ️ Cherche comment aider, ou écoute attentivement.
 
-<!-- 
+<!--
 Droits et devoirs
 
 - Vous devez lever la main pour parler, seule la navigateurice peut vous donner la parole
 - Vous avez le droit de poser des questions jusqu'à ce que vous compreniez ce qui se passe
-- Vous souhaitez faire une pause, avez besoin de temps pour réfléchir, n'hésitez pas à verbaliser vos besoins. 
+- Vous souhaitez faire une pause, avez besoin de temps pour réfléchir, n'hésitez pas à verbaliser vos besoins.
 
 C'est le rôle le plus important. C'est vous le moteur de l'équipe. On favorise les décisions rapides pour dynamiser le mob. Alors poussez fort derrière les idées, les bonnes comme les mauvaises. C'est mieux pour l'équipe d'aller rapidement dans un mur que de démonter les idées en débattant longuement. On ne cherche pas le code parfait, juste le code fait ensemble.
 -->
 
 ---
+
 layout: quote
 class: text-center
 transition: slide-up
+
 ---
 
 "Le but n’est pas de faire de l’art, c’est d’être dans cet état merveilleux qui rend l’art inévitable."
 
-*Robert Henri*
+_Robert Henri_
 
 ---
+
 transition: slide-up
 layout: image-right
 image: /psychological-safety-daniel-tuttle-DezqNIFG8jk-unsplash.jpg
+
 ---
 
 # Sécurité psychologique
+
 <br/>
 
 Partez du principe que nous sommes toustes très compétents et compétentes.
@@ -232,7 +244,7 @@ Partez du principe que nous sommes toustes très compétents et compétentes.
 - Esprit de soutien et entraide
 - Écoute active
 - Laisser son ego de côté
-- Evite l'aide infligée
+- Éviter l'aide infligée
 
 <!--
 Exemple : Je suis un·e dev expérimenté·e avec une super idée. Il vaut mieux laisser un·e junior proposer quelque chose.
@@ -249,8 +261,8 @@ Partagez lors de fréquentes rétrospectives
 
 Parce que c'est le plus simple pour travailler en équipe on va aussi travailler en développement guidé par les tests.
 
-|                                                |                        |
-|------------------------------------------------|------------------------|
+|                                                 |                        |
+| ----------------------------------------------- | ---------------------- |
 | ✋ Vous avez déjà entendu parler de la pratique | <Counter :count="0" /> |
 | <v-click> ✋ Vous avez déjà pratiqué </v-click> | <Counter :count="0" /> |
 
@@ -258,6 +270,7 @@ Parce que c'est le plus simple pour travailler en équipe on va aussi travailler
 <br/>
 
 3 phases du cycle
+
 1. Rouge (test simple qui échoue)
 2. Green (solution la plus facile)
 3. Refactor (plus propre si nécessaire)
@@ -274,29 +287,30 @@ Parce que c'est le plus simple pour travailler en équipe on va aussi travailler
 <v-click>Mais <span v-mark.red="1">c'est pas grave</span>, avancer ensemble et s'amuser c'est plus important.</v-click>
 
 ---
-transition: slide-up
----
+
+## transition: slide-up
 
 # Bilan de vos attentes
 
 ```md {monaco}
 Vous avez validé :
 
-- 
-- 
-- 
+-
+-
+-
 
 Vous auriez aimé repartir avec :
 
-- 
-- 
-- 
-
+-
+-
+-
 ```
 
 ---
+
 layout: center
 class: text-center
+
 ---
 
 # Bonus
@@ -304,8 +318,10 @@ class: text-center
 Des petits liens cool
 
 ---
+
 layout: center
 class: text-center
+
 ---
 
 <div grid="~ cols-2 gap-20">
@@ -316,16 +332,18 @@ class: text-center
       <Youtube id="c_oW0yJWveQ" width="100%" height="250px" />
     </div>
     <div>
-      <h2>Mob et Extreme programming</h2>
-      <h3>Rex d'une développeuse junior</h3>
+      <h2>Software teaming</h2>
+      <h3>Onboarding, Remote, productivité, 4ans dans la vie d'une équipe</h3>
       <br/>
-      <Youtube id="fSOxzCmSyEQ" width="100%" height="250px" />
+      <Youtube id="IL9z_HminTo" width="100%" height="250px" />
     </div>
 </div>
 
 ---
+
 layout: center
 class: text-center
+
 ---
 
 # MobTime
@@ -335,8 +353,10 @@ Gérer le chrono et la rotation des rôles
 [https://mobtime.hadrienmp.fr/](https://mobtime.hadrienmp.fr/)
 
 ---
+
 layout: image-right
-image:  /qrcode_openfeedback.io.png
+image: /qrcode_openfeedback.io.png
+
 ---
 
 # Merci !
@@ -344,6 +364,3 @@ image:  /qrcode_openfeedback.io.png
 <br/>
 
 ## Feedback ici 👉
-
-
-
