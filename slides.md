@@ -232,7 +232,7 @@ Partez du principe que nous sommes toustes très compétents et compétentes.
 - Esprit de soutien et entraide
 - Écoute active
 - Laisser son ego de côté
-- Evite l'aide infligée
+- Évite l'aide infligée
 
 <!--
 Exemple : Je suis un·e dev expérimenté·e avec une super idée. Il vaut mieux laisser un·e junior proposer quelque chose.
@@ -316,10 +316,10 @@ class: text-center
       <Youtube id="c_oW0yJWveQ" width="100%" height="250px" />
     </div>
     <div>
-      <h2>Mob et Extreme programming</h2>
-      <h3>Rex d'une développeuse junior</h3>
+      <h2>Software teaming</h2>
+      <h3>Onboarding, Remote, productivité, 4ans dans la vie d'une équipe</h3>
       <br/>
-      <Youtube id="fSOxzCmSyEQ" width="100%" height="250px" />
+      <Youtube id="IL9z_HminTo" width="100%" height="250px" />
     </div>
 </div>
 
