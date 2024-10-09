@@ -73,6 +73,7 @@ layout: intro
         <ul>
             <li>Développeuse et intégratrice web</li>
             <li>Facilitatrice Agile</li>
+            <li><a href='https://bento.me/manoncarbonnel' title="Mon site web personnel - lien externe">Mon site</a></li>
         </ul>
     </div>
     <div>
