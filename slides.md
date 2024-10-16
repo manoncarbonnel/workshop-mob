@@ -33,7 +33,7 @@ Mob Programming
   </a>
 </div>
 
-<img class="slidev-icon" style="border-radius: 50px; max-width: 70%;" src="/cover.jpg" alt="MobProgFr logo"/>
+<img class="slidev-icon" style="border-radius: 50px; max-width: 70%;" src="/poulpis.jpg" alt="MobProgFr logo"/>
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
